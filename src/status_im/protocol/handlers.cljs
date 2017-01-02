@@ -112,6 +112,7 @@
             :discoveries-request (dispatch [:discoveries-request-received message])
             :discoveries-response (dispatch [:discoveries-response-received message])
             :profile (dispatch [:contact-update-received message])
+            :update-keys (dispatch [:update-keys-received message])
             :online (dispatch [:contact-online-received message])
             :pending (dispatch [:pending-message-upsert message])
             :sent (let [{:keys [to id group-id]} message
