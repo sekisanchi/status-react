@@ -216,7 +216,7 @@
                                            :other "{{count}}トランザクションを確認"
                                            :zero  "トランザクションがありません"}
    :status                                "ステータス"
-   :pending-confirmation                  "確認が保留中です"
+   :pending-confirmation                  "確認待ち保留中です"
    :recipient                             "受信者"
    :one-more-item                         "さらに一つの項目"
    :fee                                   "手数料"
